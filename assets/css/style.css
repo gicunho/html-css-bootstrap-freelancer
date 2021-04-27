@@ -1,0 +1,74 @@
+.ms_bg_db{
+    background-color: #2c3e50;
+}
+.ms_bg_lg{
+    background-color: #1abc9c!important;
+}
+.ms_bg_pink{
+    background-color: #ba4b63;
+}
+.ms_bg_dg{
+    background-color: #3a546d;
+}
+.ms_bg_black{
+    background-color: #140f0f;
+}
+.ms_bg_lb{
+    background-color: #1ea4b6;
+}
+.ms_bg_blue{
+    background-color: #0e38b5;
+}
+.ms_bg_cb{
+    background-color: #1c83c1;
+}
+
+.text_green{
+    color: #1abc9c;
+}
+
+/* Main Rules */
+#jumbo img{
+    width: 150px;
+}
+
+.star_white i{
+    color: white;
+    font-size: 1.5rem;
+}
+.star_black i{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.star_white::before, .star_white::after{
+    content:"";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    vertical-align: super;
+}
+.star_black::before, .star_black::after{
+    content:"";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    vertical-align: super;
+}
+
+#portfolio div > img{
+    width: 100%;
+}
+
+/* Footer rules */
+
+footer > #contacts ul > li{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    vertical-align: middle;
+}
